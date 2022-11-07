@@ -17,25 +17,9 @@ a {
 }
 
 
-@media screen and (max-width: 1000px) {
-    #nav {
-        flex-direction: column;
-    }
-
-
-
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 1024px) {
-
-}
-
 
 .navTitle {
+    cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--dark);
     font-weight: 900;
@@ -47,6 +31,8 @@ a {
     display: flex;
     justify-content: center; 
 }
+
+
 
 #navName {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -173,3 +159,132 @@ a {
 .col-11 {width: 91.66%}
 .col-12 {width: 100%}
 
+
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+  
+
+
+@media screen and (max-width: 480px) {
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    #nav.hide {
+        display: none;
+    }
+
+    
+    
+    #navPages {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navTitle {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        font-size: 90%;
+        padding: 10px;
+        margin: 0px;
+        border: 0px solid var(--dark);
+        border-radius: 0px;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .activeNavPage {
+        color: var(--light);
+        background: var(--dark);
+        border: 5px solid var(--light);
+    }
+
+    .col-1-s {width: 8.22%}
+    .col-2-s {width: 16.66%}
+    .col-3-s {width: 25%}
+    .col-4-s {width: 33.22%}
+    .col-5-s {width: 41.66%}
+    .col-6-s {width: 50%}
+    .col-7-s {width: 58.33%}
+    .col-8-s {width: 66.66%}
+    .col-9-s {width: 75%}
+    .col-10-s {width: 83.33%}
+    .col-11-s {width: 91.66%}
+    .col-12-s {width: 100%}
+}
+
+@media screen and (max-width: 768px) {
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    #nav.hide {
+        display: none;
+    }
+
+    
+    
+    #navPages {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navTitle {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        font-size: 90%;
+        padding: 10px;
+        margin: 0px;
+        border: 0px solid var(--dark);
+        border-radius: 0px;
+        display: flex;
+        justify-content: center; 
+    }
+
+    .activeNavPage {
+        color: var(--light);
+        background: var(--dark);
+        border: 5px solid var(--light);
+    }
+
+    .col-1-s {width: 8.22%}
+    .col-2-s {width: 16.66%}
+    .col-3-s {width: 25%}
+    .col-4-s {width: 33.22%}
+    .col-5-s {width: 41.66%}
+    .col-6-s {width: 50%}
+    .col-7-s {width: 58.33%}
+    .col-8-s {width: 66.66%}
+    .col-9-s {width: 75%}
+    .col-10-s {width: 83.33%}
+    .col-11-s {width: 91.66%}
+    .col-12-s {width: 100%}
+}
+
+@media screen and (max-width: 1024px) {
+
+}

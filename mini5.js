@@ -42,3 +42,8 @@ function loadDoc(docName, elementId) {
 function load(){
     loadDoc('./matter/mini5home.txt','content');
 }
+
+function hamburgerToggle(x) {
+    document.getElementById('nav').classList.toggle("hide");
+    x.classList.toggle("change");
+  }

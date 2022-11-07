@@ -1,7 +1,8 @@
 <html>
  <head>
- <link rel="stylesheet" href="style.css">
-  <title>Rudi moment</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rudi moment</title>
  </head>
  <body onload='load()'>
  <?php 
