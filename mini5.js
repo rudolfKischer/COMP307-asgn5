@@ -14,7 +14,7 @@ console.log("Hello");
 // }
 
 function loadPage(page, elementid){
-    let navPages = document.getElementById('nav').children;
+    let navPages = document.getElementById('navPages').children;
     for (let page of navPages) {
         if(page.id == elementid){
             page.classList.add('activeNavPage');

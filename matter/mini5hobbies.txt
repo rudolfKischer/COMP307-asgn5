@@ -1,6 +1,5 @@
-<div id="Hobbies">
-    <h1>Hobbies</h1>
-    <div id='games'>
+<div id="Hobbies" class='contentContainer'>
+    <div class='content' id='games'>
        <div id='gamesTitle'>Games</div>
        <div id='gamesDescription'>
             I love to play and explore the world of videogames.
@@ -9,8 +8,7 @@
              Below are some of my favourite titles and some I have been playing recently. 
        </div>
     </div>
-    <br>
-    <div id='skiing'>
+    <div class='content' id='skiing'>
         <div id='SkiingTitle'>Skiing</div>
         <div id ='skiingDescription'>
             I have been skiing since I could walk. 
@@ -18,8 +16,7 @@
             Skiing allows me to enjoy the outdoors and spend time with friends during the winter.
         </div>
     </div>
-    <br>
-    <div id='photography'>
+    <div class='content' id='photography'>
         <div id='photographyTitle'>Photograpahy</div>
         <div id='photographyDescription'>
             When I have the time or when I am traveling 
@@ -27,8 +24,7 @@
             Below are some of my favourites. 
         </div>
     </div>
-    <br>
-    <div id='sailing'>
+    <div class='content' id='sailing'>
         <div id='sailingTitle'> Sailing </div>
         <div id='description'> 
             Growing up on the coast I learnt to sail with my brothers.
@@ -36,8 +32,7 @@
             Sometimes during the summer we get the chance to go on sailing trips.
         </div>
     </div>
-    <br>
-    <div id='rowing'>
+    <div class='content' id='rowing'>
         <div id='rowingTitle'>Rowing</div>
         <div id='rowingDescription'>
             I learnt how to row during highschool.
@@ -47,8 +42,7 @@
             The club I rowed out of was the Vancouver Rowing Club.
         </div>
     </div>
-    <br>
-    <div id='painting'>
+    <div class='content' id='painting'>
         <div id='paintingTitle'> Painting </div>
         <div id='paintingDescription'>
             Sometimes when I am stressed I paint to chillout. 
@@ -57,6 +51,5 @@
             My work is pretty amateur but here it is below if you would like to see it.
 
         </div>    
-        
     </div>
 </div>

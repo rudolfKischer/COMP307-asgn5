@@ -1,37 +1,84 @@
-<h1>Footer</h1>
-<div id='Contact'>
-    Contact
-    <div>
-        Linked in
-    </div>
-    <div>
-        Github
-    </div>
-    <div>
-        Emails
+
+<div id='contact'>
+    <div id='contactTitle'>Connect With Me Here</div>
+    <div ><div>
+    <div class='col-10' id='contactInfo'>
         <div>
-            Personal
+            <div class='contactInfoTitle'>
+                Linked in
+            </div>
+            <div class='contactInfo'>
+                <a href='https://www.linkedin.com/in/rudolf-kischer/'>
+                    rudolf-kischer
+                </a>
+            </div>
         </div>
         <div>
-            school
+            <div class='contactInfoTitle'>
+                Github
+            </div>
+            <div class='contactInfo'>
+                <a href='https://github.com/rudolfKischer'>
+                    rudolfKischer
+                </a>
+            </div>
         </div>
         <div>
-            work
+            <div class='contactInfoTitle'>
+                Steam
+            </div>
+            <div class='contactInfo'>
+                DOT_FOX
+            </div>
         </div>
-    </div>
-    <div>
-        Mailing address
-    </div>
-    <div>
-        Phone Number
-    </div>
-    <div>
-        Steam
-    </div>
-    <div>
-        Spotify
-    </div>
-    <div>
-        Discord
+        <div>
+            <div class='contactInfoTitle'>
+                Spotify
+            </div>
+            <div class='contactInfo'>
+                
+                <a href='https://open.spotify.com/user/rudikischer?si=427354291a8a47ab'>
+                    rudiKischer
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class='contactInfoTitle'>
+                Discord
+            </div>
+            <div class='contactInfo'>
+                D0T_F0X#1210
+            </div>
+        </div>
+        <div id='conactEmails'>
+            <div class='contactInfoTitle'>
+                Emails
+            </div>
+            <div class='contactInfo'>
+                personal: rudikischer@gmail.com
+            </div>
+            <div class='contactInfo'>
+                work: rudi@kidoodle.tv
+            </div>
+            <div class='contactInfo'>
+                school: rudolf.kischer@mail.mcgill.ca
+            </div>
+        </div>
+        <div>
+            <div class='contactInfoTitle'>
+                Mailing Address
+            </div>
+            <div class='contactInfo'>
+                3540 rue Durocher Apt. 3b, H2X 2E5
+            </div>
+        </div>
+        <div>
+            <div class='contactInfoTitle'>
+                Phone Number
+            </div>
+            <div class='contactInfo'>
+                (1)-604-809-7838
+            </div>
+        </div>
     </div>
 </div>

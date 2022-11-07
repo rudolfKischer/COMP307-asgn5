@@ -1,8 +1,8 @@
-<div id="Home">
-    <div id='aboutMe'>
-        <div id='aboutMeTitle'>Rudolf Kischer V</div>
-        <div id='aboutMeContent'>
-            <p>Developer and Computer Science Student</p>
+<div class='contentContainer' id="Home">
+    <div class='content' id='aboutMe'>
+        <div class='contentTitle' id='aboutMeTitle'></div>
+        <div class='contentDescription' id='aboutMeContent'>
+            <p class='contentTitle'>Developer and Computer Science Student</p>
             <p>Hi there, My name is Rudi. 
             I from the wild west coast and grew up on the shores of Vancouver British Columbia.
             Computers have the potential to resolve legions of problems but they can be a beast to work with.
@@ -21,31 +21,29 @@
             </p>
         </div>
     </div>
-    <div>
-        Programming Languages and Tools
+    <div  class='content' >
+        <div class='contentTitle'>
+            Programming Languages and Tools
+        </div>
         <div>
             Java, Python, OCAML, MIPS Assembly C, C#, C++, Bash, Java Script, HTML ,CSS, PHP, Vue, Flask, SQLalchemy
         </div>
     </div>
-
-    <br></br>
-    <div id='education'>
-        <div id='educationTitle'>
+    <div  class='content' id='education'>
+        <div class='contentTitle' id='educationTitle'>
             Education
         </div>
         <div id='schooling'>
             <div id='mcgill'>
                 <div id='mcgillTitle'>McGill University, Montreal</div>
                 <div id='mcgillTime'>SEP 2020 - PRESENT</div>
-                <div id='mcgillDegree'>Bachelor of Science,Honours Computer Science</div>
+                <div class='contentDescription' id='mcgillDegree'>Bachelor of Science,Honours Computer Science</div>
                 
             </div>
         </div>
     </div>
-
-    <br></br>
-    <div id='experience'>
-        <div id='experienceTitle'>
+    <div class='content' id='experience'>
+        <div class='contentTitle' id='experienceTitle'>
             Experience
         </div>
         <div id='experienceList'>
@@ -53,22 +51,20 @@
                 <div id='kidoodleCompanyTitle'>Kidoodle TV</div>
                 <div id='kidoodlePositionTitle'>Student Developer</div>
                 <div id='mcgillTime'>JUL 2022 - PRESENT</div>
-                <div id='description'>
+                <div class='contentDescription' id='description'>
                     Utilized Python Flask to develop back end database software and API’s.
                 </div>
             </div>
         </div>
     </div>
-    
-    <br></br>
-    <div id='projects'>
-        <div id='projectsTitle'>Projects</div>
-        <div id='projectsList'>
-            <div id='algorithmsDemo'>
-                <div id='algorithmsDemoTitle'>
+    <div class='content' id='projects'>
+        <div class='contentTitle' id='projectsTitle'>Projects</div>
+        <div class='contentContainer' id='projectsList'>
+            <div class='content' id='algorithmsDemo'>
+                <div class='contentTitle' id='algorithmsDemoTitle'>
                     Algorithm's Demo Page
                 </div>
-                <div id='algorithmsDemoDescription'>
+                <div class='contentDescription' id='algorithmsDemoDescription'>
                     Developed a website using JavaScript that demonstrates how different sorting algorithms work
                 </div>
                 <div id='algorithmsDemoImg'>
@@ -76,33 +72,33 @@
                 </div>
                 
             </div>
-            <div id='maze'>
-                <div id='mazeTitle'>
+            <div class='content' id='maze'>
+                <div class='contentTitle' id='mazeTitle'>
                     Maze generator and Solver
                 </div>
-                <div id='mazeDescription'>
+                <div class='contentDescription' id='mazeDescription'>
                     Created a random maze generator and solver using java that displays its process
                 </div>
                 <div id='mazeImg'>
                     IMG
                 </div>
             </div>
-            <div id='snake'>
-                <div id='snakeTitle'>
+            <div class='content' id='snake'>
+                <div class='contentTitle' id='snakeTitle'>
                     Snake
                 </div>
-                <div id='snakeDescription'>
+                <div class='contentDescription' id='snakeDescription'>
                     Simple Snake game using custom graphics
                 </div>
                 <div id='snakeImg'>
                     IMG
                 </div>
             </div>
-            <div id='graphics'>
-                <div id='graphicsTitle'>
+            <div class='content' id='graphics'>
+                <div class='contentTitle' id='graphicsTitle'>
                     3D Graphics Engine 
                 </div>
-                <div id='graphicsDescription'>
+                <div class='contentDescription' id='graphicsDescription'>
                     Built and designed a graphics engine that can display 3D objects using java
                 </div>
                 <div id='graphicsImg'>
@@ -112,9 +108,8 @@
 
         </div>
     </div>
-     <br></br>
-    <div id='awards'>
-        <div id='awardsTitle'>
+    <div  class='content' id='awards'>
+        <div class='contentTitle' id='awardsTitle'>
             Awards
         </div>
         <div id='awardsList'>
@@ -122,16 +117,14 @@
                 <div id='achievementScholarshipTitle'>
                  B.C. Achievement Scholarship
                 </div>
-                <div id='achievementScholarshipDescription'>
+                <div class='contentDescription' id='achievementScholarshipDescription'>
                     recognizes the top 8,000 graduates in the province.
                 </div>
             </div>
         </div>
     </div>
-
-    <br></br>
-    <div id='hackathons'>
-        <div id='hackathonsTitle'>
+    <div class='content' id='hackathons'>
+        <div class='contentTitle' id='hackathonsTitle'>
             Hackathons
         </div>
         <div id='hackathonsList'>
@@ -139,7 +132,7 @@
                 <div id='mcHacks9Title'>
                     McHacks 9
                 </div>
-                <div id='mcHacks9Description'>
+                <div class='contentDescription' id='mcHacks9Description'>
                     Used APIs to implement photo recognition and photogrammatry
                 </div>
             </div>
@@ -147,7 +140,7 @@
                 <div id='pharmaHacksTitle'>
                     PharmaHacks 2022
                 </div>
-                <div id='pharmaHacksDescription'>
+                <div class='contentDescription' id='pharmaHacksDescription'>
                     Made a Machine Learning model that could diagnose patients based on gut bacteria count
                 </div>
             </div>

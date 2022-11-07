@@ -1,9 +1,16 @@
 
+<div class='col-12' id=navName>
+        <div class='navName' id='navNameName'> Rudolf Kischer </div>
+        <div id='navTitleName'>the V</div>
+</div>
 <div id='nav'>
-    <div class='activeNavPage'id=navHome onclick="loadPage('home','navHome')">
-        Home
-    </div>
-    <div id=navHobbies onclick="loadPage('hobbies','navHobbies')">
-        Hobbies
+    <div class='col-5' id='navPages'>
+        <div class='activeNavPage navTitle col-2'id=navHome onclick="loadPage('home','navHome')">
+            <div>Home</div>
+        </div>
+        <div class='navTitle col-2'  id=navHobbies onclick="loadPage('hobbies','navHobbies')">
+            <div>Hobbies</div>
+        </div>
     </div>
 </div>
+

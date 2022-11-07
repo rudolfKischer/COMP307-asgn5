@@ -1,7 +1,7 @@
 <html>
  <head>
  <link rel="stylesheet" href="style.css">
-  <title>PHP Test</title>
+  <title>Rudi moment</title>
  </head>
  <body onload='load()'>
  <?php 
