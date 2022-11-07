@@ -1,0 +1,156 @@
+<div id="Home">
+    <div id='aboutMe'>
+        <div id='aboutMeTitle'>Rudolf Kischer V</div>
+        <div id='aboutMeContent'>
+            <p>Developer and Computer Science Student</p>
+            <p>Hi there, My name is Rudi. 
+            I from the wild west coast and grew up on the shores of Vancouver British Columbia.
+            Computers have the potential to resolve legions of problems but they can be a beast to work with.
+            My passion is to tame the tech and use software to create practical and creative solutions. 
+            </p>
+
+            <p>
+                I am currently studying in Montreal at Mcgill University.
+                 My plan is to complete my bachelors degree in computer science with honours. 
+                 I have learnt a variety of soft and hard skills including
+                  data strucutres, algorithms, software design, web devlopment and team collaboration.
+            </p>
+
+            <p>
+                Currently I am fascinated by computer graphics, animation and Games.
+            </p>
+        </div>
+    </div>
+    <div>
+        Programming Languages and Tools
+        <div>
+            Java, Python, OCAML, MIPS Assembly C, C#, C++, Bash, Java Script, HTML ,CSS, PHP, Vue, Flask, SQLalchemy
+        </div>
+    </div>
+
+    <br></br>
+    <div id='education'>
+        <div id='educationTitle'>
+            Education
+        </div>
+        <div id='schooling'>
+            <div id='mcgill'>
+                <div id='mcgillTitle'>McGill University, Montreal</div>
+                <div id='mcgillTime'>SEP 2020 - PRESENT</div>
+                <div id='mcgillDegree'>Bachelor of Science,Honours Computer Science</div>
+                
+            </div>
+        </div>
+    </div>
+
+    <br></br>
+    <div id='experience'>
+        <div id='experienceTitle'>
+            Experience
+        </div>
+        <div id='experienceList'>
+            <div id='kidoodle'>
+                <div id='kidoodleCompanyTitle'>Kidoodle TV</div>
+                <div id='kidoodlePositionTitle'>Student Developer</div>
+                <div id='mcgillTime'>JUL 2022 - PRESENT</div>
+                <div id='description'>
+                    Utilized Python Flask to develop back end database software and API’s.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br></br>
+    <div id='projects'>
+        <div id='projectsTitle'>Projects</div>
+        <div id='projectsList'>
+            <div id='algorithmsDemo'>
+                <div id='algorithmsDemoTitle'>
+                    Algorithm's Demo Page
+                </div>
+                <div id='algorithmsDemoDescription'>
+                    Developed a website using JavaScript that demonstrates how different sorting algorithms work
+                </div>
+                <div id='algorithmsDemoImg'>
+                    IMG
+                </div>
+                
+            </div>
+            <div id='maze'>
+                <div id='mazeTitle'>
+                    Maze generator and Solver
+                </div>
+                <div id='mazeDescription'>
+                    Created a random maze generator and solver using java that displays its process
+                </div>
+                <div id='mazeImg'>
+                    IMG
+                </div>
+            </div>
+            <div id='snake'>
+                <div id='snakeTitle'>
+                    Snake
+                </div>
+                <div id='snakeDescription'>
+                    Simple Snake game using custom graphics
+                </div>
+                <div id='snakeImg'>
+                    IMG
+                </div>
+            </div>
+            <div id='graphics'>
+                <div id='graphicsTitle'>
+                    3D Graphics Engine 
+                </div>
+                <div id='graphicsDescription'>
+                    Built and designed a graphics engine that can display 3D objects using java
+                </div>
+                <div id='graphicsImg'>
+                    IMG
+                </div>
+            </div>
+
+        </div>
+    </div>
+     <br></br>
+    <div id='awards'>
+        <div id='awardsTitle'>
+            Awards
+        </div>
+        <div id='awardsList'>
+            <div id='achievementScholarship'>
+                <div id='achievementScholarshipTitle'>
+                 B.C. Achievement Scholarship
+                </div>
+                <div id='achievementScholarshipDescription'>
+                    recognizes the top 8,000 graduates in the province.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br></br>
+    <div id='hackathons'>
+        <div id='hackathonsTitle'>
+            Hackathons
+        </div>
+        <div id='hackathonsList'>
+            <div id='mcHacks9'>
+                <div id='mcHacks9Title'>
+                    McHacks 9
+                </div>
+                <div id='mcHacks9Description'>
+                    Used APIs to implement photo recognition and photogrammatry
+                </div>
+            </div>
+            <div id='pharmaHacks'>
+                <div id='pharmaHacksTitle'>
+                    PharmaHacks 2022
+                </div>
+                <div id='pharmaHacksDescription'>
+                    Made a Machine Learning model that could diagnose patients based on gut bacteria count
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

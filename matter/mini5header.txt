@@ -1,0 +1,9 @@
+
+<div id='nav'>
+    <div class='activeNavPage'id=navHome onclick="loadPage('home','navHome')">
+        Home
+    </div>
+    <div id=navHobbies onclick="loadPage('hobbies','navHobbies')">
+        Hobbies
+    </div>
+</div>

@@ -1,0 +1,62 @@
+<div id="Hobbies">
+    <h1>Hobbies</h1>
+    <div id='games'>
+       <div id='gamesTitle'>Games</div>
+       <div id='gamesDescription'>
+            I love to play and explore the world of videogames.
+             I am also really interested in analyzing games. 
+             How the design, mechanics , narative and art come together to create an experience is fascinating to me.
+             Below are some of my favourite titles and some I have been playing recently. 
+       </div>
+    </div>
+    <br>
+    <div id='skiing'>
+        <div id='SkiingTitle'>Skiing</div>
+        <div id ='skiingDescription'>
+            I have been skiing since I could walk. 
+            I grew up skiing on whistler blackomb in B.C.
+            Skiing allows me to enjoy the outdoors and spend time with friends during the winter.
+        </div>
+    </div>
+    <br>
+    <div id='photography'>
+        <div id='photographyTitle'>Photograpahy</div>
+        <div id='photographyDescription'>
+            When I have the time or when I am traveling 
+            I like to shoot digital to capture perfect moments I cant forget.
+            Below are some of my favourites. 
+        </div>
+    </div>
+    <br>
+    <div id='sailing'>
+        <div id='sailingTitle'> Sailing </div>
+        <div id='description'> 
+            Growing up on the coast I learnt to sail with my brothers.
+            We often only sail small boats by the sailing club.
+            Sometimes during the summer we get the chance to go on sailing trips.
+        </div>
+    </div>
+    <br>
+    <div id='rowing'>
+        <div id='rowingTitle'>Rowing</div>
+        <div id='rowingDescription'>
+            I learnt how to row during highschool.
+            Sometimes the sport is called skulling or crew.
+            It is very physicaly requiring sport that also demands teamwork.
+            I usually rowed  in doubles or quads. Often my position was bow.
+            The club I rowed out of was the Vancouver Rowing Club.
+        </div>
+    </div>
+    <br>
+    <div id='painting'>
+        <div id='paintingTitle'> Painting </div>
+        <div id='paintingDescription'>
+            Sometimes when I am stressed I paint to chillout. 
+            I find painting quite cathartic and satisfying.
+            Sometimes I paint with my roomates or friends.
+            My work is pretty amateur but here it is below if you would like to see it.
+
+        </div>    
+        
+    </div>
+</div>
