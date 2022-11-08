@@ -1,5 +1,5 @@
 
-<div id='contact'>
+<div id='contact' class='col-12'>
     <div id='contactTitle'>Connect With Me Here</div>
     <div ><div>
     <div class='col-10' id='contactInfo'>
