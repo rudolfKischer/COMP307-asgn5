@@ -59,7 +59,7 @@
     </div>
     <div class='content' id='projects'>
         <div class='contentTitle' id='projectsTitle'>Projects</div>
-        <div class='contentContainer' id='projectsList'>
+        <div class='contentContainer hide' id='projectsList'>
             <div class='content' id='algorithmsDemo'>
                 <div class='contentTitle' id='algorithmsDemoTitle'>
                     Algorithm's Demo Page
@@ -105,7 +105,11 @@
                     IMG
                 </div>
             </div>
+            
 
+        </div>
+        <div id='projectsCollapse' onclick="projectsToggle(this)">
+            << CLICK TO TOGGLE PROJECTS>>
         </div>
     </div>
     <div  class='content' id='awards'>

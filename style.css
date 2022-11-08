@@ -7,13 +7,24 @@
 
 }
 
-body {
+html, body {
+    background-color: var(--secondary-color);
     padding: 0px;
     margin: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
 }
 
 a {
     all: unset;
+}
+
+#content {
+    margin-top: 120px; 
+    margin-bottom: 900px;
+    overflow: auto;
 }
 
 
@@ -33,6 +44,9 @@ a {
 }
 
 
+#header {
+    position: fixed;
+}
 
 #navName {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -43,11 +57,13 @@ a {
     display: flex;
     align-items: flex-end;
     border: 5px solid var(--dark);
+    
 }
 
 #navTitleName {
     font-size: small;
     font-family: cursive;
+    
 }
 
 #navName > div {
@@ -63,10 +79,10 @@ a {
 #nav {
     background-color: var(--primary-color);
     justify-content: left;
-    width: 100%;
     padding: 0px;
     margin: 0px;
     display: flex;
+    
 }
 
 .activeNavPage {
@@ -115,11 +131,27 @@ a {
 
 }
 
+#projectsCollapse {
+    margin-top: 20px; 
+    text-align: center;
+    cursor: pointer;
+}
+
+#projectsList.hide {
+    display: none;
+}
+
 #contact {
     background-color: var(--dark);
     color: var(--light);
+    bottom: 0px;
+    position: fixed;
+
+    
 
 }
+
+
 
 #contactTitle {
     font-size: large;
@@ -189,6 +221,12 @@ a {
 
 @media screen and (max-width: 480px) {
 
+    #content {
+        margin-top: 60px; 
+    }
+
+    
+
     .hamburger {
         display: inline-block;
     }
@@ -238,6 +276,10 @@ a {
 
 @media screen and (max-width: 768px) {
 
+    #content {
+        margin-top: 60px; 
+    }
+
     .hamburger {
         display: inline-block;
     }
@@ -286,5 +328,6 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
+    /* default*/
 
 }

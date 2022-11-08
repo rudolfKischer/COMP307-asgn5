@@ -1,6 +1,6 @@
 <div id="Hobbies" class='contentContainer'>
     <div class='content' id='games'>
-       <div id='gamesTitle'>Games</div>
+       <div class='contentTitle' id='gamesTitle'>Games</div>
        <div id='gamesDescription'>
             I love to play and explore the world of videogames.
              I am also really interested in analyzing games. 
@@ -9,7 +9,7 @@
        </div>
     </div>
     <div class='content' id='skiing'>
-        <div id='SkiingTitle'>Skiing</div>
+        <div class='contentTitle' id='SkiingTitle'>Skiing</div>
         <div id ='skiingDescription'>
             I have been skiing since I could walk. 
             I grew up skiing on whistler blackomb in B.C.
@@ -17,7 +17,7 @@
         </div>
     </div>
     <div class='content' id='photography'>
-        <div id='photographyTitle'>Photograpahy</div>
+        <div class='contentTitle' id='photographyTitle'>Photograpahy</div>
         <div id='photographyDescription'>
             When I have the time or when I am traveling 
             I like to shoot digital to capture perfect moments I cant forget.
@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class='content' id='sailing'>
-        <div id='sailingTitle'> Sailing </div>
+        <div class='contentTitle' id='sailingTitle'> Sailing </div>
         <div id='description'> 
             Growing up on the coast I learnt to sail with my brothers.
             We often only sail small boats by the sailing club.
@@ -33,7 +33,7 @@
         </div>
     </div>
     <div class='content' id='rowing'>
-        <div id='rowingTitle'>Rowing</div>
+        <div class='contentTitle' id='rowingTitle'>Rowing</div>
         <div id='rowingDescription'>
             I learnt how to row during highschool.
             Sometimes the sport is called skulling or crew.
@@ -43,7 +43,7 @@
         </div>
     </div>
     <div class='content' id='painting'>
-        <div id='paintingTitle'> Painting </div>
+        <div class='contentTitle' id='paintingTitle'> Painting </div>
         <div id='paintingDescription'>
             Sometimes when I am stressed I paint to chillout. 
             I find painting quite cathartic and satisfying.

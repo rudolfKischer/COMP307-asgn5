@@ -1,20 +1,22 @@
 
-<div class='col-12' id=navName>
-        <div class="hamburger" onclick="hamburgerToggle(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-        <div class='navName' id='navNameName'> Rudolf Kischer </div>
-        <div id='navTitleName'>the V</div> 
-</div>
-<div class='hide' id='nav'>
-    <div class='col-5 col-12-s' id='navPages'>
-        <div class='activeNavPage navTitle col-2 col-12-s'id=navHome onclick="loadPage('home','navHome')">
-            <div>Home</div>
-        </div>
-        <div class='navTitle col-2 col-12-s'  id=navHobbies onclick="loadPage('hobbies','navHobbies')">
-            <div>Hobbies</div>
+<div id='header' class='col-12'>
+    <div class='col-12' id=navName>
+            <div class="hamburger" onclick="hamburgerToggle(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class='navName' id='navNameName'> Rudolf Kischer </div>
+            <div id='navTitleName'>the V</div> 
+    </div>
+    <div class='hide col-12' id='nav'>
+        <div class='col-5 col-12-s' id='navPages'>
+            <div class='activeNavPage navTitle col-2 col-12-s'id=navHome onclick="loadPage('home','navHome')">
+                <div>Home</div>
+            </div>
+            <div class='navTitle col-2 col-12-s'  id=navHobbies onclick="loadPage('hobbies','navHobbies')">
+                <div>Hobbies</div>
+            </div>
         </div>
     </div>
 </div>

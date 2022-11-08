@@ -47,3 +47,8 @@ function hamburgerToggle(x) {
     document.getElementById('nav').classList.toggle("hide");
     x.classList.toggle("change");
   }
+
+function projectsToggle(x) {
+
+    document.getElementById('projectsList').classList.toggle("hide")
+}
