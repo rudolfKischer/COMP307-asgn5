@@ -220,6 +220,10 @@ a {
 
 
 @media screen and (max-width: 480px) {
+    #contactInfo {
+        font-size: small;
+        gap: 10px;
+    }
 
     #content {
         margin-top: 60px; 
@@ -275,6 +279,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    #contactInfo {
+        font-size: small;
+        gap: 10px;
+    }
 
     #content {
         margin-top: 60px; 
